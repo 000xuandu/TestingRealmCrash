@@ -368,6 +368,8 @@ PODS:
     - React-jsi (= 0.70.6)
     - React-logger (= 0.70.6)
     - React-perflogger (= 0.70.6)
+  - RealmJS (11.3.1):
+    - React
   - RNSentry (5.2.0):
     - React-Core
     - Sentry/HybridSDK (= 8.3.2)
@@ -438,6 +440,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RealmJS (from `../node_modules/realm`)
   - "RNSentry (from `../node_modules/@sentry/react-native`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -528,6 +531,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/runtimeexecutor"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RealmJS:
+    :path: "../node_modules/realm"
   RNSentry:
     :path: "../node_modules/@sentry/react-native"
   Yoga:
@@ -580,6 +585,7 @@ SPEC CHECKSUMS:
   React-RCTVibration: c75ceef7aa60a33b2d5731ebe5800ddde40cefc4
   React-runtimeexecutor: 15437b576139df27635400de0599d9844f1ab817
   ReactCommon: 349be31adeecffc7986a0de875d7fb0dcf4e251c
+  RealmJS: 43fc7bfb83229c8a2755cb34f71f769c97b7b581
   RNSentry: 6f67e29b26d5cb687c5c8f6e2dc3351b8b80b605
   Sentry: e16896bd4be235a2713bdb4f47db199102902ac8
   SentryPrivate: af44a161d76b7ce8c6b26e388f52a253b93fa35c
